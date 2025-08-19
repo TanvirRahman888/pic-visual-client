@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Slider></Slider>
-      <SubTitle title="Service" serviceDetails="Service Details"> </SubTitle>
+      <SubTitle title="Services" serviceDetails="Check our Service Details"> </SubTitle>
       <BeforeAfter
         title="Website Redesign"
         beforeImg="https://fixthephoto.com/images/uikit_slider/photography-retouching-services-before-wh960.jpg"
