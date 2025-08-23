@@ -1,4 +1,5 @@
 import BeforeAfter from "@/Components/BeforeAfter/BeforeAfter";
+import Hero from "@/Components/Home/Hero/Hero";
 import Slider from "@/Components/Home/Slider/Slider";
 import SubTitle from "@/Components/SubTitle/SubTitle";
 
@@ -6,6 +7,7 @@ export default function Home() {
   return (
     <div>
       <Slider></Slider>
+      <Hero></Hero>
       <SubTitle title="Services" serviceDetails="Check our Service Details"> </SubTitle>
       <BeforeAfter
         title="Website Redesign"
