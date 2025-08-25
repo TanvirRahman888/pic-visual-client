@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative w-full bg-gray-900 text-white overflow-hidden bg-opacity-50 ">
+    <section className="relative w-full bg-[url(https://img.freepik.com/free-psd/abstract-background-design_1297-89.jpg)] bg-cover text-white overflow-hidden bg-opacity-50 ">
       {/* Background Image */}
       <div className="absolute inset-0 -z-10">
         <img 
