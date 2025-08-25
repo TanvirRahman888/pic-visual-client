@@ -6,8 +6,8 @@ import SubTitle from "@/Components/SubTitle/SubTitle";
 export default function Home() {
   return (
     <div>
-      <Slider></Slider>
       <Hero></Hero>
+      <Slider></Slider>
       <SubTitle title="Services" serviceDetails="Check our Service Details"> </SubTitle>
       <BeforeAfter
         title="Website Redesign"

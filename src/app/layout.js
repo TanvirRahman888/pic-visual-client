@@ -25,8 +25,10 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NavBar></NavBar>
-        <div className="container mt-[104px] md:mt-[72px] lg:mt-[69px] px-2 mx-auto">
-        {children}
+        <div className="bg-[url(https://img.freepik.com/free-vector/gradient-abstract-wireframe-background_23-2149009903.jpg)] bg-cover">
+          <div className="container mt-[104px] md:mt-[72px] lg:mt-[69px] px-2 mx-auto ">
+            {children}
+          </div>
         </div>
         <Footer></Footer>
       </body>
